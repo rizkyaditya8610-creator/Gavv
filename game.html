@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pintu Masuk Crazy Games</title>
+
+    <style>
+        body {
+            margin: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+            color: #c5c6c7;
+            text-align: center;
+            background: #000;
+        }
+
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .container {
+            padding: 40px;
+            margin-top: 60px;
+            background-color: rgba(12, 13, 16, 0.85);
+            border-radius: 15px;
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            backdrop-filter: blur(4px);
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <video autoplay loop muted id="video-background">
+        <source src="game.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <h1>💥 Saatnya Bermain Crazy Games! 💥</h1>
+        <p>Koleksi game browser paling seru dan adiktif.</p>
+
+        <a href="https://www.crazygames.com/" target="_blank" class="cta-button">
+            MULAI BERMAIN
+        </a>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Kustom (Vialowspender)</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        #video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        body {
+            overflow-y: auto;
+            overflow-x: hidden;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <video autoplay loop muted id="video-bg">
+        <source src="zeztz.mp4" type="video/mp4">
+    </video>
+
+    <div class="dashboard-container">
+
+        <div class="sidebar-nav">
+            <div class="logo-area">
+                <i class="fas fa-gem logo-icon"></i>
+                <span class="logo-text">code number 7</span>
+            </div>
+
+            <div class="menu-top">
+                <a href="dashboard.html" class="nav-item active"><i class="fas fa-house"></i> HOME</a>
+                <a href="game.html" class="nav-item"><i class="fas fa-gamepad"></i> GAME</a>
+                <a href="music.html" class="nav-item"><i class="fas fa-music"></i> MUSIC</a>
+                <a href="kontak.html" class="nav-item"><i class="fas fa-address-book"></i> CONTACT</a>
+            </div>
+
+            <a href="index.html" class="nav-item logout-link"><i class="fas fa-arrow-right-to-bracket"></i> LOGOUT</a>
+        </div>
+
+        <div class="main-content-wrapper">
+            <div class="profile-card-v2">
+                <div class="avatar-header">
+                    <img src="hitam.png" class="profile-avatar">
+                    <div class="status-badge">ONLINE</div>
+                </div>
+
+                <div class="profile-body">
+                    <h1 class="profile-title">ABOUT ME</h1>
+                    <p class="profile-text-v2">
+                        Nama saya Rizky aditya siswa SMK Maarif kelas XI TJKT 3. Sekarang saya mendalami TJKT seperti merakit PC, instalasi OS, dan mengelola jaringan.
+                        Saya terus meningkatkan skill agar siap menghadapi dunia teknologi yang terus berkembang.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
